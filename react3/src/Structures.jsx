@@ -4,6 +4,20 @@ import arrow from './Group.svg'
 import orange from './orange.svg'
 import egg from './egg.svg'
 import cup from './cup.svg'
+import cherry from './cherry.svg'
+import orrange from './orrange.svg'
+import woman1 from './woman1.svg'
+import woman2 from './woman2.svg'
+import man1 from './man1.svg'
+import bottle from './bottle.svg'
+import orange3 from './orange3.svg'
+import icecream from './icecream.svg'
+import sugar from './sugar.svg'
+import sunnyside1 from './sunnyside1.svg'
+import facebook from './facebook.svg'
+import instagram from './instagram.svg'
+import twitter from './twitter.svg'
+import pinterest from './pinterest.svg'
 
 const structure = () => {
     return (
@@ -69,11 +83,67 @@ const structure = () => {
                 </div>
             </div>
             <div style={{ width: "100vw", height: "600px", display: "flex" }}>
-                <div></div>
-                <div></div>
+                <div style={{backgroundImage: `url(${cherry})`,backgroundRepeat: 'no-repeat',backgroundSize: 'cover',height:"600px", width:"50vw", display:"flex", alignItems:"end", justifyContent:"center", paddingBottom:"59px"}}>
+                    <div style={{display:"flex", justifyContent:"space-between", alignContent:"center", height:"143px", width:"339px", flexDirection:"column", alignItems:"center"}}>
+                        <div style={{fontFamily: '"Fraunces", serif',fontWeight:"900",fontSize:"28px",color:"#24554A"}}>Graphic Design</div>
+                        <div style={{fontWeight:"600", textAlign:"center", color:"#3E7467"}}>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${orrange})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover', height:"600px", width:"50vw",display:"flex", alignItems:"end", justifyContent:"center", paddingBottom:"59px"}}>
+                  <div style={{display:"flex", justifyContent:"space-between", alignContent:"center", height:"143px", width:"339px", flexDirection:"column", alignItems:"center"}}>
+                        <div style={{fontFamily: '"Fraunces", serif',fontWeight:"900",fontSize:"28px",color:"#052C3B", opacity:"75%"}}>Photography</div>
+                        <div style={{fontWeight:"600", textAlign:"center", color:"#19536C"}}>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</div>
+                    </div>
+                </div>
             </div>
-            <div className='fifth'></div>
-            <div className='sixth'></div>
+            <div style={{height:"80vh", width:"100vw", background:"white", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div style={{width:"70vw", height:"457px", display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column", gap:"30px"}}>
+                    <div style={{width:"348px", height:"25px", fontFamily: '"Fraunces", serif', fontWeight:"900", fontSize:"20px", letterSpacing:"5px", color:"#A7AAAD", paddingBottom:"81px"}}>CLIENT TESTIMONIALS</div>
+                   <div style={{display:"flex", flexDirection:"row", gap:"30px", width:"70vw", justifyContent :"space-between"}}> 
+                    <div style={{height:"38vh", width:"350px", display:"flex", justifyContent:"space-between", alignItems:"center", flexDirection:"column"}}>
+                        <img src={woman1} alt="woman" />
+                        <div style={{textAlign:"center",height:"96px",fontWeight:"600", fontSize:"18px", lineHeight:"32px", color:"#5B636D"}}>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</div>
+                        <div style={{width:"203px", height:"56px", display:"flex",justifyContent:"space-between", flexDirection:"column", alignItems:"center"}}>
+                            <div style={{fontFamily: '"Fraunces", serif', fontWeight:"900", fontSize:"18px", lineHeight:"100%" , color:"#24303E"}}>Emily R.</div>
+                            <div style={{fontSize:"14px", color:"#A7AAAD"}}>Marketing Director</div>
+                        </div>
+                    </div>
+                    <div style={{height:"38vh", width:"350px", display:"flex", justifyContent:"space-between", alignItems:"center", flexDirection:"column"}}>
+                        <img src={man1} alt="man" />
+                        <div style={{textAlign:"center",height:"96px",fontWeight:"600", fontSize:"18px", lineHeight:"32px", color:"#5B636D"}}>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</div>
+                        <div style={{width:"203px", height:"56px", display:"flex",justifyContent:"space-between", flexDirection:"column", alignItems:"center"}}>
+                            <div style={{fontFamily: '"Fraunces", serif', fontWeight:"900", fontSize:"18px", lineHeight:"100%", color:"#24303E"}}>Thomas S.</div>
+                            <div style={{fontSize:"14px", color:"#A7AAAD"}}>Chief Operating Officer</div>
+                        </div>
+                    </div>
+                    <div style={{height:"38vh", width:"350px", display:"flex", justifyContent:"space-between", alignItems:"center", flexDirection:"column"}}>
+                        <img src={woman2} alt="woman" />
+                        <div style={{textAlign:"center",height:"96px",fontWeight:"600", fontSize:"18px", lineHeight:"32px", color:"#5B636D"}}>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</div>
+                        <div style={{width:"203px", height:"56px", display:"flex",justifyContent:"space-between", flexDirection:"column", alignItems:"center"}}>
+                            <div style={{fontFamily: '"Fraunces", serif', fontWeight:"900", fontSize:"18px", lineHeight:"100%" , color:"#24303E"}}>Jennie F.</div>
+                            <div style={{fontSize:"14px", color:"#A7AAAD"}}>Business Owner</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{height:"487px", width:"100vw", display:"flex" }}>
+                <div style={{width:"25vw", height:"487px",backgroundImage: `url(${bottle})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover',backgroundPosition: 'center'}}></div>
+                <div style={{width:"25vw", height:"487px",backgroundImage: `url(${orange3})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover',backgroundPosition: 'center'}}></div>
+                <div style={{width:"25vw", height:"487px",backgroundImage: `url(${icecream})`, backgroundRepeat: 'no-repeat',backgroundSize: 'cover',backgroundPosition: 'center'}}></div>
+                <div style={{width:"25vw", height:"487px",backgroundImage: `url(${sugar})`, backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize:"cover"}}></div>
+            </div>
+            <div style={{width:"100vw", height:"350px", background:"#90D4C6", display:"flex", justifyContent:"center", alignItems:"center", gap:"40px", flexDirection:"column"}}>
+                <img src={sunnyside1} alt="Sunnyside" />
+                <div style={{width:"295px", display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+                    <div style={{fontSize:"18px",fontWeight:"600",color:"#458D7E"}}>About</div>
+                    <div style={{fontSize:"18px",fontWeight:"600",color:"#458D7E"}}>Services</div>
+                    <div style={{fontSize:"18px",fontWeight:"600",color:"#458D7E"}}>Projects</div>
+                </div>
+                <div style={{width:"164px", display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+                    <img src={facebook} alt="facebook" /><img src={instagram} alt="instagram" /><img src={twitter} alt="twitter" /><img src={pinterest} alt="pinterest" />
+                </div>
+            </div>
         </div>
     )
 }
