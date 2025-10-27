@@ -140,7 +140,7 @@ const structure = () => {
                     <div style={{fontSize:"18px",fontWeight:"600",color:"#458D7E"}}>Services</div>
                     <div style={{fontSize:"18px",fontWeight:"600",color:"#458D7E"}}>Projects</div>
                 </div>
-                <div style={{width:"164px", display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+                <div style={{width:"164px", display:"flex", justifyContent:"space-between", alignItems:"center", paddingTop:"48px"}}>
                     <img src={facebook} alt="facebook" /><img src={instagram} alt="instagram" /><img src={twitter} alt="twitter" /><img src={pinterest} alt="pinterest" />
                 </div>
             </div>
