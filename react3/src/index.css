@@ -14,4 +14,101 @@ overflow-x: hidden;
 
 button {
   font-family: "Fraunces", serif;
+   transition: all 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  color:white;
+  background-color: #91C8E4;
+  opacity: 90%;
+}
+
+
+.footertext {
+  color: #458D7E; 
+  transition: color 0.3s ease; 
+}
+
+.footertext:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+.line1 {
+  background-color: #FAD400;
+  opacity: 0.25;
+  transition: all 0.3s ease;
+}
+
+.line1:hover {
+ opacity: 1;
+}
+
+.line2 {
+  opacity: 0.25;
+  transition: all 0.3s ease;
+  background: #FE7766;
+}
+
+.line2:hover {
+  opacity: 1;
+}
+
+.icon1 {
+  height: 20px;
+  width: 20px;
+  background-image: url('./facebook.svg'); 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease; 
+  cursor: pointer;
+}
+
+.icon1:hover {
+  background-image: url('./facebook1.svg');
+}
+
+.icon2 {
+  height: 20px;
+  width: 20px;
+  background-image: url('./instagram.svg'); 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease; 
+  cursor: pointer;
+}
+
+.icon2:hover {
+  background-image: url('./instagram1.svg');
+}
+
+.icon3 {
+  height: 20px;
+  width: 20px;
+  background-image: url('./twitter.svg'); 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease; 
+  cursor: pointer;
+}
+
+.icon3:hover {
+  background-image: url('./twitter1.svg');
+}
+
+
+.icon4 {
+  height: 20px;
+  width: 20px;
+  background-image: url('./pinterest.svg'); 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease; 
+  cursor: pointer;
+}
+
+.icon4:hover {
+  background-image: url('./pinterest1.svg');
 }
